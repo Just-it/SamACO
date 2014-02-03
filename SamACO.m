@@ -39,6 +39,9 @@ function [ fmin, ...        % function value of xmin
 %
 %   bestever, overall best search point.
 %
+% Example:
+%   [ bestValue, FES ] = SamACO(10, @F2, -100, 100)
+%
 % 输入：
 %   dimension：作为标量，表明目标函数的维度数
 %
